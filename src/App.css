@@ -612,7 +612,7 @@ img {
   margin-top: 0%;
 }
 
-@media only screen and (max-width:650px) {
+@media only screen and (max-width:850px) {
   .page_container {
       background: radial-gradient(circle, #ff0080, #ffff00);
       text-align: center;
@@ -645,7 +645,7 @@ img {
 .align {
   display: flex;
 }
-@media only screen and (max-width:650px){
+@media only screen and (max-width:850px){
   .align {
       display: grid;
     }
