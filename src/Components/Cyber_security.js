@@ -45,11 +45,11 @@ import Button from '@mui/material/Button';
      
       <div className="first_line">
        <Button className="course_name" variant="contained" color="secondary">Course Name</Button>  <span className="dash">:</span>  
-        <Button className="course_heading" variant="contained" color="success" >DSA </Button><br/>
+        <Button className="course_heading" variant="contained" color="success" >INTRO TO HACKING</Button><br/>
       </div>
       <div className="first_line">
        <Button className="course_name" variant="contained" color="secondary">Author Name</Button>  <span className="dash">:</span>  
-        <Button className="course_heading" variant="contained" color="success" >STRIVER </Button><br/>
+        <Button className="course_heading" variant="contained" color="success" >TRISHNA </Button><br/>
       </div>
        <div className="first_line">
         <Button className="course_name" variant="contained" color="secondary">Date</Button>  <span className="dash">:</span>  

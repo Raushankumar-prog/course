@@ -37,11 +37,11 @@ const AI = () => {
      
       <div className="first_line">
        <Button className="course_name" variant="contained" color="secondary">Course Name</Button>  <span className="dash">:</span>  
-        <Button className="course_heading" variant="contained" color="success" >DSA </Button><br/>
+        <Button className="course_heading" variant="contained" color="success" >AI</Button><br/>
       </div>
       <div className="first_line">
        <Button className="course_name" variant="contained" color="secondary">Author Name</Button>  <span className="dash">:</span>  
-        <Button className="course_heading" variant="contained" color="success" >STRIVER </Button><br/>
+        <Button className="course_heading" variant="contained" color="success" >ARYA SHARMA</Button><br/>
       </div>
        <div className="first_line">
         <Button className="course_name" variant="contained" color="secondary">Date</Button>  <span className="dash">:</span>  

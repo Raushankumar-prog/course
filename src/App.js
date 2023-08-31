@@ -153,7 +153,7 @@ function App() {
              <Button variant='text'  id="navbutton" href="/Web_dev" disableRipple>WEBESITE DEVELOPMENT</Button>
               <Button variant='text'  id="navbutton" href="/DSA"disableRipple>DSA</Button>
                <Button  variant='text'  id="navbutton"href="/Cyber_security"disableRipple>CYBER SECURITY</Button>
-                <Button variant='text'  id="navbutton" href="/AI"disableRipple>AI AND ML</Button>
+                <Button variant='text'  id="navbutton" href="/AI" disableRipple>AI AND ML</Button>
                  <Button variant='text' id="navbutton"href="/wars"disableRipple>ANDROID DEVLOPMENT</Button>
                  
           
