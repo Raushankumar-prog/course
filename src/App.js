@@ -15,20 +15,45 @@ function App() {
   
       
          const dropdownonclick=()=>{
-         const dropdownnavvar=document.getElementById('drop-down-box');
+         const dropdownnavvar3=document.getElementById('drop-down-box');
+         const computedStyle3=window.getComputedStyle(dropdownnavvar3);
+         const displayStyle3=computedStyle3.getPropertyValue('display');
+
+         if(displayStyle3==='none'){
+            dropdownnavvar3.style.display='flex';
+         }
+         else{
+         dropdownnavvar3.style.display='none';
+          
+         }
+            const dropdownnavvar=document.getElementById('user-data');
          const computedStyle=window.getComputedStyle(dropdownnavvar);
          const displayStyle=computedStyle.getPropertyValue('display');
 
-         if(displayStyle==='none'){
-            dropdownnavvar.style.display='flex';
+         if(displayStyle==='flex'){
+            dropdownnavvar.style.display='none';
          }
-         else{
-         dropdownnavvar.style.display='none';
-          
+         
+         const dropdownnavvar1=document.getElementById('login-form');
+         const computedStyle1=window.getComputedStyle(dropdownnavvar1);
+         const displayStyle1=computedStyle1.getPropertyValue('display');
+
+         if(displayStyle1==='flex'){
+            dropdownnavvar1.style.display='none';
          }
+         
  };
  
          const login=()=>{
+           const dropdownnavvar3=document.getElementById('drop-down-box');
+         const computedStyle3=window.getComputedStyle(dropdownnavvar3);
+         const displayStyle3=computedStyle3.getPropertyValue('display');
+
+         if(displayStyle3==='flex'){
+            dropdownnavvar3.style.display='none';
+         }
+         
+         
             const dropdownnavvar=document.getElementById('user-data');
          const computedStyle=window.getComputedStyle(dropdownnavvar);
          const displayStyle=computedStyle.getPropertyValue('display');
