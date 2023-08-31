@@ -612,6 +612,29 @@ img {
   margin-top: 0%;
 }
 
+@media only screen and (max-width:650px) {
+  .page_container {
+      background: radial-gradient(circle, #ff0080, #ffff00);
+      text-align: center;
+      width: 100%;
+      border: 5px solid yellow;
+      border-radius: 9%;
+      margin-left: 3%;
+      margin-top: 1%;
+  
+    }
+  
+    .page_container:hover {
+      background: radial-gradient(circle, #ffff00, #ff0080);
+      text-align: center;
+      width: 100%;
+      border: 5px solid rgb(15, 15, 15);
+      border-radius: 9%;
+      margin-left: 0%;
+      margin-bottom: 1%;
+      margin-top: 0%;
+    }
+}
 
 .buy {
   padding-left: 10%;
@@ -621,6 +644,11 @@ img {
 
 .align {
   display: flex;
+}
+@media only screen and (max-width:650px){
+  .align {
+      display: grid;
+    }
 }
 
 #user-data {
