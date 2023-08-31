@@ -104,7 +104,7 @@ function App() {
         
         <nav id="heading">
        
-         <Link to="course/" className='remove'><HomeIcon color='alert' size='medium' ></HomeIcon><span className="separator"></span></Link>
+         <Link to="/course/" className='remove'><HomeIcon color='alert' size='medium' ></HomeIcon><span className="separator"></span></Link>
          <Link to="/Web_dev" className='remove'>WEB_DEV<span className="separator"></span></Link>
          <Link to="/DSA" className="remove">DSA<span className="separator"></span></Link>
       
@@ -149,7 +149,7 @@ function App() {
 
  <Box sx={{width:'100%',height:'80%',border:'3px solid red',float:'left',backgroundColor:'black',display:'none'}}  id="drop-down-box" >
           <ButtonGroup orientation="vertical" className="navboss" >
-            <Button variant='text' id="navbutton"  href="course/">home</Button>
+            <Button variant='text' id="navbutton"  href="/course/">home</Button>
              <Button variant='text'  id="navbutton" href="/Web_dev" disableRipple>WEBESITE DEVELOPMENT</Button>
               <Button variant='text'  id="navbutton" href="/DSA"disableRipple>DSA</Button>
                <Button  variant='text'  id="navbutton"href="/Cyber_security"disableRipple>CYBER SECURITY</Button>
@@ -163,7 +163,7 @@ function App() {
       <Routes>
         
 
-        <Route path="course/" element={<Home/>}/>
+        <Route path="/course/" element={<Home/>}/>
         <Route path="website-template" element={<Home/>}/>
       
         
@@ -180,7 +180,7 @@ function App() {
          <hr className="footer_hr"></hr>
           <nav className='footer_navigation'>
        
-         <Link to="" className='foot_remove'>About_us</Link>
+         <Link to="/course/" className='foot_remove'>About_us</Link>
          <Link to="/World_news" className='foot_remove'>Terms_and_condition</Link>
          <Link to="/DSA" className="foot_remove">Privacy_policy</Link>
       
