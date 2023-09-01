@@ -14,7 +14,7 @@ const Home = () => {
       </div>
       <div className="first_line">
        <Button className="course_name" variant="contained" color="secondary">Author Name</Button>  <span className="dash">:</span>  
-        <Button className="course_heading" variant="contained" color="success" >JIYA RATHORE </Button><br/>
+        <Button className="course_heading" variant="contained" color="success" >RATHORE </Button><br/>
       </div>
        <div className="first_line">
         <Button className="course_name" variant="contained" color="secondary">Date</Button>  <span className="dash">:</span>  
@@ -73,7 +73,7 @@ const Home = () => {
       </div>
       <div className="first_line">
        <Button className="course_name" variant="contained" color="secondary">Author Name</Button>  <span className="dash">:</span>  
-        <Button className="course_heading" variant="contained" color="success" >RAUSHAN KUMAR </Button><br/>
+        <Button className="course_heading" variant="contained" color="success" >RAUSHAN </Button><br/>
       </div>
        <div className="first_line">
         <Button className="course_name" variant="contained" color="secondary">Date</Button>  <span className="dash">:</span>  
